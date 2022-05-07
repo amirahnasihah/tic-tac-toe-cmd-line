@@ -9,7 +9,7 @@ Players 'X' and 'O' take turn inputing their position on the command line using 
 
 // importing user import library
 const prompt = require('prompt-sync')({ sigint: true });
-// this it to check if the game works properly
+// to check if the game works properly using assert
 const assert = require('assert');
 
 // The board object used to save the current status of a gameplay
